@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0.5em 2em;
+  width: 100vw;
 }
 
 .brand {
@@ -18,6 +19,8 @@
 .links_list {
   display: flex;
   list-style: none;
+  position: relative;
+  left: -30px;
 }
 
 .links_list li {
